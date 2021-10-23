@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: den.demo
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [annotation-api, app-name, config-kubernetes, gcp-pubsub, github-workflow-google-cloud-run-graalvm, github-workflow-graal-docker-registry, graalvm, http-client, java, java-application, jdbc-hikari, jib, junit, knative, kubernetes, logback, management, maven, netty-server, openapi, postgres, readme, security-annotations, security-oauth2, shade, testcontainers, vertx-pg-client, yaml]

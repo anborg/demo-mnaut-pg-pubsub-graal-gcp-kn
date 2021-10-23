@@ -1,0 +1,23 @@
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/postgres
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: ''
+vertx:
+  pg:
+    client:
+      port: 5432
+      host: the-host
+      database: the-db
+      user: user
+      password: password
+      maxSize: 5
+micronaut:
+  security:
+    authentication: cookie
+    oauth2:
+      clients:
+        default:
+          client-id: ${OAUTH_CLIENT_ID}
+          client-secret: ${OAUTH_CLIENT_SECRET}
